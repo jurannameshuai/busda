@@ -1,0 +1,39 @@
+
+
+.tabbar{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	/*-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);*/
+	/*-webkit-filter:blur(10px);*/
+	background-color: rgba(233, 234, 238, 0.95);
+	box-shadow: inset 0 0.5px 0 0 rgba(44, 45, 58, 0.1);
+	height: 0.5rem;
+	/*-webkit-filter: blur(10px);
+	filter: blur(10px);*/
+}
+
+.select_title{
+	font-family: .PingFangSC;
+	font-size: 0.1rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.0;
+	letter-spacing: 0.1px;
+	color: #2d2e3a;
+	padding-bottom: 0.03rem;
+}
+
+.normal_title{
+	font-family: .PingFangSC;
+	font-size: 0.1rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.0;
+	letter-spacing: 0.1px;
+	color: #686872;
+	padding-bottom: 0.03rem;
+}

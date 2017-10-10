@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="UTF-8">
+		<title>登录</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/ui-box.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/ui-color.css" />
+		<style type="text/css">
+			::-webkit-input-placeholder {
+				color: #686872;
+			}
+
+			.mui-toast-container {
+				bottom: 50% !important;
+			}
+
+			.ulev1 {
+				font-size: 0.14rem;
+			}
+
+			.next {
+				/*position: fixed;*/
+				left: 0.08rem;
+				right: 0.08rem;
+				/*bottom: 0.16rem;*/
+				border-radius: 100px;
+				height: 0.4rem;
+				line-height: 1.0;
+				/*background-color: #2d2e3a;*/
+				/*color: #FFFFFF;*/
+			}
+		</style>
+	</head>
+
+	<body class="bg_color" id="div_body" style="max-width: 600px;margin: 0 auto">
+		<div style="margin-top:1.3rem">
+			<div class="ub ub-ver">
+				<!--账号-->
+				<div class="ub ub-ac" style="border-bottom: 1px solid #e9ebee;">
+					<div style="background-image: url(images/phoneicon.png);background-repeat: no-repeat;background-size: 100% 100%;width: 0.13rem;height: 0.15rem;margin-left: 0.2rem;"></div>
+					<div class="ub-f1 mui-input-row" style="width: 1%;padding:0.2rem 0.12rem;"><input id="phone" type="tel" class="mui-input-clear ulev1 phone" placeholder="请输入手机号" onkeyup="this.value=this.value.replace(/[^0-9Xx]/g,'')" onafterpaste="this.value=this.value.replace(/[^0-9Xx]/g,'')" data-input-clear="1"><span class="mui-icon mui-icon-clear mui-hidden"></span></div>
+				</div>
+
+				<!--密码-->
+				<div class="ub ub-ac" style="border-bottom: 1px solid #e9ebee;">
+					<div style="background-image: url(images/lockicon.png);background-repeat: no-repeat;background-size: 100% 100%;width: 0.13rem;height: 0.15rem;margin-left: 0.2rem;"></div>
+					<div class="ub-f1" style="width: 1%; padding:0.2rem 0.12rem;"><input id="pwd" class="ulev1 pwd" type="password" placeholder="请输入密码"></div>
+				</div>
+			</div>
+		</div>
+		<div id="now_login" class="ulev1" style="margin: 0.6rem 0.08rem 0 0.08rem;border-radius: 100px;background-color: #2d2e3a;line-height: 1;color: #ffffff;padding: 0.13rem 0;text-align: center;">立即登录</div>
+        <script type="text/javascript" src="/static/js/display.js"></script>
+		<script type="text/javascript" src="/static/js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="/static/js/mui.min.js"></script>
+		<script type="text/javascript" src="/static/js/tool.js"></script>
+		<script src="/static/js/login.js?v=0.01" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

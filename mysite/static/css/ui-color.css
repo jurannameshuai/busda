@@ -1,0 +1,90 @@
+
+/*reset.css*/
+* {
+	line-height: 1.0;
+    margin: 0;
+    padding: 0;
+    font-size: 0.12rem;
+    color: #686872;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+}
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button, html input[type="button"], /* 1 */
+input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer
+}
+a {
+    text-decoration: none;
+}
+input, textarea {
+    outline: none;
+    display: inline-block;
+    box-sizing: border-box;
+    background: transparent;
+    border: 0;
+    height: 0.2rem;
+}
+
+div {
+    outline: 0 !important;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+ul, li {
+    list-style: none;
+}
+/*reset.css*/
+
+/*背景色*/
+.bg_color{
+	background-color: #f6f8f9;
+}
+/*跳转链接颜色 例如：查看合同*/ 
+.font_blue{
+	color: #3177f6;
+}
+
+/*价格类颜色*/
+.font_price{
+	color: #cc3333;
+}
+
+/*1级文本颜色*/
+.font_select{
+	color: #2d2e3a;
+}
+	
+/*2级文本颜色*/
+.font_normal{
+	color: #686872;
+}
+
+/*置灰色 取消色*/
+.font_cancel{
+	color: #96969c;
+}
+
+/*白色字体*/
+.font_white{
+	color: #ffffff;
+}
+
+/*成功文案*/
+.font_success{
+	color: #339933;
+}
+
+/*tabbar*/
+.tabbar_bgc{
+	background-color: rgba(233,234,238,0.95);
+}

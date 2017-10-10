@@ -1,0 +1,174 @@
+.mui-h5,
+h5 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #2d2e3a;
+}
+
+
+/*button*/
+
+.mui-btn-blue,
+.mui-btn-primary,
+input[type=submit] {
+	color: #fff;
+	border: 1px solid #3177f6;
+	background: #3177f6;
+}
+
+.mui-pciker-list li.highlight {
+	color: #3177f6;
+}
+
+.mui-pciker-list li {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	/*font-size: 1pc;*/
+	font-size: 0.16rem;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2d2e3a;
+	padding: 0 8px;
+	white-space: nowrap;
+	-webkit-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	cursor: default;
+	visibility: hidden;
+	font-family: .PingFangSC;
+	white-space: pre-line !important;
+	font-style: normal;
+	font-stretch: normal;
+	font-weight: normal;
+	line-height: 1.0;
+	letter-spacing: 0.1px;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/*picker*/
+
+.mui-pciker-list,
+.mui-pciker-rule {
+	border: 0px solid red;
+}
+
+.mui-picker-rule-ft {
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.mui-picker {
+	background: #fff;
+}
+
+
+/*title  年月日*/
+
+.mui-dtpicker-title h5 {
+	display: inline-block;
+	width: 20%;
+	margin: 0;
+	padding: 8px;
+	text-align: center;
+	border-top: solid 1px #e9ebee;
+	background-color: #fff;
+	border-bottom: solid 1px #e9ebee;
+}
+
+
+/*radio*/
+
+.mui-radio input[type='radio']:checked:before {
+	content: '\e442';
+}
+
+
+/*checkbox*/
+
+.mui-checkbox input[type=checkbox]:before,
+.mui-radio input[type=radio]:before {
+	font-family: Muiicons;
+	font-size: 22px!important;
+	font-weight: 400;
+	line-height: 1;
+	text-decoration: none;
+	color: #aaa;
+	border-radius: 0;
+	background: 0 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/*mui-badge-danger mui-badge-red*/
+
+.mui-badge-danger,
+.mui-badge-red {
+	color: #fff;
+	background-color: #cc3333;
+}
+
+
+/*mobiscroll.css*/
+
+.dw-persp,
+.dwo {
+	width: 100%;
+	height: 100%;
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+}
+
+.mbsc-android-holo .dwv {
+	color: #686872;
+	line-height: 36px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 18px;
+}
+
+
+/*.mbsc-android-holo-light .dwwr {
+			    background: #ffffff;
+			    color: #000;
+			}*/
+
+.mbsc-android-holo .dwwol {
+	display: block;
+	width: 60%;
+	left: 20%;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.dwwol {
+	/*margin-top: -0.3rem !important;*/
+}
+
+.dw-li,
+.dw-v {
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	box-pack: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	box-align: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	position: relative;
+}
+.dw-i{
+	-webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+	display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    position: relative;
+}
